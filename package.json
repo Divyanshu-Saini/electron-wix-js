@@ -17,6 +17,7 @@
   "typings": "lib/index.d.ts",
   "scripts": {
     "prepublish": "npm run build",
+    "publish":"npm publish",
     "build": "tsc --pretty",
     "test": "npm run lint && jest",
     "lint": "tslint -c tslint.json 'src/**/*.ts'",
